@@ -1,0 +1,285 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+    list-style-type:none;
+    text-decoration:none;
+}
+
+*::selection {
+   background: #1B2430;
+   color: #fff;
+}
+
+body{
+    color:#DCD7C9;
+    background:#1B2430;
+}
+
+header {
+position:fixed;
+top:0;
+right:0;
+width:100%;
+z-index:1000;
+display:flex;
+align-items:center;
+justify-content: space-between;
+margin: 0;
+background: #1B2430;
+}
+
+.logo {
+    padding-left: 20px;
+    color:white ;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+span {
+    color: #D89216;
+
+}
+
+.navbar{
+    display:flex;
+}
+ 
+.navbar a{
+    color:white;
+    font-size:1.1rem;
+    padding:10px 30px;
+    font-weight:500;
+    list-style-type: none;
+}
+
+.navbar a:hover {
+    color: #C84B31;
+    transition: .3s;
+}
+
+#menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+section {
+    padding: 70px 20%;
+}
+
+.home {
+    width: 100%;
+    min-height:90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.home-img img{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
+
+.home-text h1{
+    font-size: 50px;
+    color: #C84B31;
+}
+
+.home-text h2 {
+    font-size:25px;
+    margin: 10px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #C84B31;
+    color: white;
+    border-radius: .5rem;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 2px solid #C84B31;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.about-img img{
+    max-width:100% ;
+    width: 480px;
+    height: auto;
+}
+
+.about-text span{
+    margin-bottom: 30px;
+    color: #C84B31;
+    font-size: 40px;
+}
+
+.about-text h2 {
+    font-size: 30px;
+}
+
+.about-text p {
+    line-height: 25px;
+    margin: 10px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading span {
+    font-size: 35px;
+    color:#C84B31;
+    font-weight: bold;
+}
+
+.heading h2 {
+    font-size: 20px;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap:1.5rem;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    margin-top: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #334756;
+    padding: 30px;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+
+.box-img{
+    width: 220px;
+    height: 220px;
+}
+
+.box-img img{
+    height:100%;
+    width: 100%;
+}
+
+.box i {
+    font-size: 30px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.box i:hover {
+    color: #C84B31;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px , auto));
+    grid-gap: 1.5rem;
+    margin-top: 4rem;
+}
+
+.s-box {
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.s-box img {
+    width: 100px;
+    height: 100px;
+}
+
+.s-box h3{
+    font-size: 30px;
+    margin: 5px 0 10px;
+    color: #C84B31;
+    font-weight: bold;
+}
+
+.s-box p{
+    line-height: 20px;
+    font-size: 15px;
+}
+
+footer {
+    background: #111;
+    height:150px;
+    width: 100%;
+    color: white;
+}
+
+.footer-x {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-x h3 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 35px;
+    padding:0;
+    text-transform: capitalize;
+}
+
+.footer-x p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 15px;
+    padding: 0;
+}
+
+.socials {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:5px ;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: .3s;
+}
+
+.socials a:hover {
+    color: #C84B31;
+}
+
+.footer {
+    text-align: center;
+}
+
+
